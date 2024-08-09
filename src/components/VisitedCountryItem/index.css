@@ -1,0 +1,29 @@
+.country-card-container {
+  width: 30%;
+  background-color: rgb(187, 189, 187, 0.08);
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.card-image {
+  width: 100%;
+}
+.country-card-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.country-card-name {
+  color: #f8fafc;
+  font-size: 17px;
+  margin: 0px;
+}
+.remove-button {
+  color: #f8fafc;
+  border: 1px solid #94a3b8;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  padding: 7px 10px;
+  border-radius: 5px;
+}

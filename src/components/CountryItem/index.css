@@ -1,0 +1,31 @@
+.country-list-item {
+  font-family: 'Roboto';
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #94a3b8;
+  background-color: rgb(187, 189, 187, 0.08);
+  padding: 10px;
+}
+.country-name {
+  color: #f8fafc;
+  font-size: 16px;
+  margin-left: 20px;
+}
+.visit-button {
+  border: none;
+  outline: none;
+  width: 75px;
+  padding: 7px 11px;
+  background-color: #3b82f6;
+  color: #ffffff;
+  margin-right: 20px;
+  border-radius: 4px;
+}
+.visited-text {
+  color: #94a3b8;
+  font-weight: 500;
+  margin: 0px;
+  margin-right: 30px;
+  padding: 5px;
+}

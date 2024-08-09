@@ -1,0 +1,40 @@
+.app-container {
+  padding: 2% 4%;
+  background-color: #161624;
+  min-height: 100vh;
+}
+.countries-heading {
+  color: #f8fafc;
+}
+.visited-countries-heading {
+  color: #f8fafc;
+}
+.no-countries-paragraph {
+  color: #f8fafc;
+}
+.countries-list {
+  padding: 0px;
+  list-style-type: none;
+  border: 1px solid #94a3b8;
+  border-radius: 4px;
+  max-height: 50vh;
+  overflow-x: auto;
+}
+.visited-countries-list-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+.no-countries-paragraph {
+  font-weight: 500;
+  font-size: 18px;
+}
+.visited-countries-list {
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
